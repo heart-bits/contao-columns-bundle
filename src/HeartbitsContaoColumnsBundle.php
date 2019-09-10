@@ -8,7 +8,7 @@
  *
  */
 
-namespace Heartbits\Contao\Rows;
+namespace Heartbits\ContaoRows;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

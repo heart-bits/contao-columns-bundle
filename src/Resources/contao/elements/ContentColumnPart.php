@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Heartbits\Contao\Rows;
+namespace Heartbits\ContaoRows;
 
 
 /**
@@ -16,14 +16,14 @@ namespace Heartbits\Contao\Rows;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class ContentRowStart extends \ContentElement
+class ContentRowPart extends \ContentElement
 {
 
 	/**
 	 * Template
 	 * @var string
 	 */
-	protected $strTemplate = 'ce_rowStart';
+	protected $strTemplate = 'ce_rowPart';
 
 
 	/**

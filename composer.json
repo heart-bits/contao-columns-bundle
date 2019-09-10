@@ -1,5 +1,5 @@
 {
-  "name":"heart-bits/contao-rows-bundle",
+  "name":"heart-bits/contao-columns-bundle",
   "description":"Rows extension for Contao Open Source CMS",
   "keywords":["contao", "rows", "reihen", "columns", "spalten", "foundation"],
   "type":"contao-bundle",
@@ -17,17 +17,25 @@
     "source":"https://github.com/heart-bits/hb-rows-bundle"
   },
   "require":{
-    "php":">=5.6.0",
-    "contao/core-bundle": "~4.4",
-    "contao-community-alliance/composer-plugin": "~3.0"
+    "php":">=7.1.0",
+    "contao/core-bundle": "~4.4"
   },
   "require-dev": {
     "contao/manager-bundle": "~4.4"
   },
   "autoload": {
-    "psr-4": { "Heartbits\\Contao\\Rows\\": "src/" }
+    "psr-4": { "Heartbits\\ContaoColumns\\": "src/" },
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/dca/",
+      "src/Resources/contao/languages/",
+      "src/Resources/contao/templates/"
+    ]
   },
   "extra":{
-    "contao-manager-plugin": "Heartbits\\Contao\\Rows\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Heartbits\\ContaoColumns\\ContaoManager\\Plugin"
   }
 }

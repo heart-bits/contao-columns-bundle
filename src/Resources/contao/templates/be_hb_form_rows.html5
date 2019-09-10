@@ -1,0 +1,2 @@
+
+<strong><?= $GLOBALS['TL_LANG']['tl_content']['fields']['element_column_small'][0]; ?>:</strong> <?= $GLOBALS['TL_LANG']['tl_content']['column_sizes'][$this->element_column_small]; ?> | <strong><?= $GLOBALS['TL_LANG']['tl_content']['fields']['element_column_medium'][0]; ?>:</strong> <?= $GLOBALS['TL_LANG']['tl_content']['column_sizes'][$this->element_column_medium]; ?> | <strong><?= $GLOBALS['TL_LANG']['tl_content']['fields']['element_column_large'][0]; ?>:</strong> <?= $GLOBALS['TL_LANG']['tl_content']['column_sizes'][$this->element_column_large]; ?>
