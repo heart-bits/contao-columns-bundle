@@ -1,230 +1,170 @@
 <?xml version="1.0" ?><xliff version="1.1">
     <file datatype="plaintext" original="src/Resources/contao/languages/de/tl_content.xlf" source-language="en" target-language="de">
         <body>
-        <trans-unit id="CTE.row">
-            <source>Row</source>
-            <target>Reihe</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowStart.0">
-            <source>Wrapper Start</source>
-            <target>Umschlag Start</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowStart.1">
-            <source>Generates the opening part of the row wrapper.</source>
-            <target>Erzeugt den öffnenden Teil des Reihen-Umschlags.</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowPart.0">
-            <source>Wrapper Separator</source>
-            <target>Umschlag Trennelemente</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowPart.1">
-            <source>Generates the separating part of the row wrapper.</source>
-            <target>Erzeugt den trennenden Teil des Reihen-Umschlags.</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowStop.0">
-            <source>Wrapper Stop</source>
-            <target>Umschlag Ende</target>
-        </trans-unit>
-        <trans-unit id="CTE.rowStop.1">
-            <source>Generates the closing part of the row wrapper.</source>
-            <target>Erzeugt den schließenden Teil des Reihen-Umschlags.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.column_size">
-            <source>Width of the element</source>
-            <target>Breite des Elementes</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_small.0">
-            <source>Mobile width</source>
-            <target>Mobile Breite</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_small.1">
-            <source>Choose how wide columns in the mobile layout are.</source>
-            <target>Wählen Sie die Spaltenbreite für das Mobile-Layout.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_medium.0">
-            <source>Tablet width</source>
-            <target>Tablet Breite</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_medium.1">
-            <source>Choose how wide columns in the tablet layout are.</source>
-            <target>Wählen Sie die Spaltenbreite für das Tablet-Layout.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_large.0">
-            <source>Desktop width</source>
-            <target>Desktop Breite</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.element_column_large.1">
-            <source>Choose how wide columns in the desktop layout are.</source>
-            <target>Wählen Sie die Spaltenbreite für das Desktop-Layout.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.1">
-            <source>8,33% (1/12)</source>
-            <target>8,33% (1/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.2">
-            <source>16,66% (2/12)</source>
-            <target>16,66% (2/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.3">
-            <source>25% (3/12)</source>
-            <target>25% (3/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.4">
-            <source>33,33% (4/12)</source>
-            <target>33,33% (4/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.5">
-            <source>41,66% (5/12)</source>
-            <target>41,66% (5/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.6">
-            <source>50% (6/12)</source>
-            <target>50% (6/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.7">
-            <source>58,33% (7/12)</source>
-            <target>58,33% (7/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.8">
-            <source>66,66% (8/12)</source>
-            <target>66,66% (8/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.9">
-            <source>75% (9/12)</source>
-            <target>75% (9/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.10">
-            <source>83,33% (10/12)</source>
-            <target>83,33% (10/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.11">
-            <source>91,66% (11/12)</source>
-            <target>91,66% (11/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column_sizes.12">
-            <source>100% (12/12)</source>
-            <target>100% (12/12)</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column-push-pull.0">
-            <source>Shift column</source>
-            <target>Spalte verschieben</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.column-push-pull.1">
-            <source>Choose if the column should be pulled to the left or pushed to the right.</source>
-            <target>Wählen Sie, ob die Spalte nach link oder rechts verschoben werden soll.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.pull-push-breakpoint.0">
-            <source>Breakpoint</source>
-            <target>Breakpoint</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.pull-push-breakpoint.1">
-            <source>Choose the breakpoint, at which the column should be shifted.</source>
-            <target>Wählen Sie den breakpoint, ab dem die Spalte verschoben werden soll.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.pull-push-size.0">
-            <source>Size of shift</source>
-            <target>Verschiebungs-Weite</target>
-        </trans-unit>
-        <trans-unit id="tl_content.fields.pull-push-size.1">
-            <source>Choose the size, the column should be shifted.</source>
-            <target>Wählen Sie die Weite, um die die Spalte verschoben werden soll.</target>
-        </trans-unit>
-        <trans-unit id="tl_content.push-pull.pull">
-            <source>Pull Column to the left.</source>
-            <target>Die Spalte nach links ziehen</target>
-        </trans-unit>
-        <trans-unit id="tl_content.push-pull.push">
-            <source>Push column to the right.</source>
-            <target>Die Spalte nach rechts schieben</target>
-        </trans-unit>
-
-        <trans-unit id="tl_content.breakpoint.small">
-            <source>Mobile</source>
-            <target>Mobile</target>
-        </trans-unit>
-        <trans-unit id="tl_content.breakpoint.medium">
-            <source>Tablet</source>
-            <target>Tablet</target>
-        </trans-unit>
-        <trans-unit id="tl_content.breakpoint.large">
-            <source>Desktop</source>
-            <target>Desktop</target>
-        </trans-unit>
+            <trans-unit id="CTE.row">
+                <source>Row</source>
+                <target>Reihe</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowStart.0">
+                <source>Wrapper Start</source>
+                <target>Umschlag Start</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowStart.1">
+                <source>Generates the opening part of the row wrapper.</source>
+                <target>Erzeugt den öffnenden Teil des Reihen-Umschlags.</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowPart.0">
+                <source>Wrapper Separator</source>
+                <target>Umschlag Trennelemente</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowPart.1">
+                <source>Generates the separating part of the row wrapper.</source>
+                <target>Erzeugt den trennenden Teil des Reihen-Umschlags.</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowStop.0">
+                <source>Wrapper Stop</source>
+                <target>Umschlag Ende</target>
+            </trans-unit>
+            <trans-unit id="CTE.rowStop.1">
+                <source>Generates the closing part of the row wrapper.</source>
+                <target>Erzeugt den schließenden Teil des Reihen-Umschlags.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_size">
+                <source>Width of the element</source>
+                <target>Breite des Elementes</target>
+            </trans-unit>
+            <trans-unit id="tl_content.collapse_switch.0">
+                <source>Inner gaps</source>
+                <target>Inner Abstände</target>
+            </trans-unit>
+            <trans-unit id="tl_content.collapse_switch.1">
+                <source>Choose, if you want to show the gaps between the columns.</source>
+                <target>Wählen Sie, ob Abstände zwischen den Spalten angezeigt werden sollen.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.expanded_switch.0">
+                <source>Restrict width</source>
+                <target>Breite begrenzen</target>
+            </trans-unit>
+            <trans-unit id="tl_content.expanded_switch.1">
+                <source>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</source>
+                <target>Wählen Sie, ob die gesamte Reihe auf die Content-Breite begrenzt werden, oder über die gesamte Fensterbreite laufen soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_small.0">
+                <source>Mobile width</source>
+                <target>Mobile Breite</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_small.1">
+                <source>Choose how wide columns in the mobile layout are.</source>
+                <target>Wählen Sie die Spaltenbreite für das Mobile-Layout.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_medium.0">
+                <source>Tablet width</source>
+                <target>Tablet Breite</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_medium.1">
+                <source>Choose how wide columns in the tablet layout are.</source>
+                <target>Wählen Sie die Spaltenbreite für das Tablet-Layout.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_large.0">
+                <source>Desktop width</source>
+                <target>Desktop Breite</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.element_column_large.1">
+                <source>Choose how wide columns in the desktop layout are.</source>
+                <target>Wählen Sie die Spaltenbreite für das Desktop-Layout.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.1">
+                <source>8,33% (1/12)</source>
+                <target>8,33% (1/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.2">
+                <source>16,66% (2/12)</source>
+                <target>16,66% (2/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.3">
+                <source>25% (3/12)</source>
+                <target>25% (3/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.4">
+                <source>33,33% (4/12)</source>
+                <target>33,33% (4/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.5">
+                <source>41,66% (5/12)</source>
+                <target>41,66% (5/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.6">
+                <source>50% (6/12)</source>
+                <target>50% (6/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.7">
+                <source>58,33% (7/12)</source>
+                <target>58,33% (7/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.8">
+                <source>66,66% (8/12)</source>
+                <target>66,66% (8/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.9">
+                <source>75% (9/12)</source>
+                <target>75% (9/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.10">
+                <source>83,33% (10/12)</source>
+                <target>83,33% (10/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.11">
+                <source>91,66% (11/12)</source>
+                <target>91,66% (11/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.column_sizes.12">
+                <source>100% (12/12)</source>
+                <target>100% (12/12)</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.column-push-pull.0">
+                <source>Shift column</source>
+                <target>Spalte verschieben</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.column-push-pull.1">
+                <source>Choose if the column should be pulled to the left or pushed to the right.</source>
+                <target>Wählen Sie, ob die Spalte nach link oder rechts verschoben werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.pull-push-breakpoint.0">
+                <source>Breakpoint</source>
+                <target>Breakpoint</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.pull-push-breakpoint.1">
+                <source>Choose the breakpoint, at which the column should be shifted.</source>
+                <target>Wählen Sie den breakpoint, ab dem die Spalte verschoben werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.pull-push-size.0">
+                <source>Size of shift</source>
+                <target>Verschiebungs-Weite</target>
+            </trans-unit>
+            <trans-unit id="tl_content.fields.pull-push-size.1">
+                <source>Choose the size, the column should be shifted.</source>
+                <target>Wählen Sie die Weite, um die die Spalte verschoben werden soll.</target>
+            </trans-unit>
+            <trans-unit id="tl_content.push-pull.pull">
+                <source>Pull Column to the left.</source>
+                <target>Die Spalte nach links ziehen</target>
+            </trans-unit>
+            <trans-unit id="tl_content.push-pull.push">
+                <source>Push column to the right.</source>
+                <target>Die Spalte nach rechts schieben</target>
+            </trans-unit>
+            <trans-unit id="tl_content.breakpoint.small">
+                <source>Mobile</source>
+                <target>Mobile</target>
+            </trans-unit>
+            <trans-unit id="tl_content.breakpoint.medium">
+                <source>Tablet</source>
+                <target>Tablet</target>
+            </trans-unit>
+            <trans-unit id="tl_content.breakpoint.large">
+                <source>Desktop</source>
+                <target>Desktop</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
-
-
-<?php
-$GLOBALS['TL_LANG']['CTE']['row'] = 'Reihe';
-$GLOBALS['TL_LANG']['CTE']['rowStart'][0] = 'Umschlag Start';
-$GLOBALS['TL_LANG']['CTE']['rowStart'][1] = 'Erzeugt den öffnenden Teil des Reihen-Umschlags.';
-$GLOBALS['TL_LANG']['CTE']['rowPart'][0] = 'Umschlag Trennelemente';
-$GLOBALS['TL_LANG']['CTE']['rowPart'][1] = 'Erzeugt den trennenden Teil des Reihen-Umschlags.';
-$GLOBALS['TL_LANG']['CTE']['rowStop'][0] = 'Umschlag Ende';
-$GLOBALS['TL_LANG']['CTE']['rowStop'][1] = 'Erzeugt den schließenden Teil des Reihen-Umschlags.';
-
-$GLOBALS['TL_LANG']['tl_content']['column_size'] = 'Breite des Elementes (Sollte nur ausgefüllt werden, wenn das Eltern-Reihen-Element keine Spaltenbestimmungen enthält!)';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_small'][0] = 'Mobile Breite';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_small'][1] = 'Wählen Sie die Spaltenbreite für das Mobile-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_medium'][0] = 'Tablet Breite';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_medium'][1] = 'Wählen Sie die Spaltenbreite für das Tablet-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_large'][0] = 'Desktop Breite';
-$GLOBALS['TL_LANG']['tl_content']['fields']['element_column_large'][1] = 'Wählen Sie die Spaltenbreite für das Desktop-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['1'] = '8,33% (1/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['2'] = '16,66% (2/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['3'] = '25% (3/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['4'] = '33,33% (4/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['5'] = '41,66% (5/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['6'] = '50% (6/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['7'] = '58,33% (7/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['8'] = '66,66% (8/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['9'] = '75% (9/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['10'] = '83,33% (10/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['11'] = '91,66% (11/12)';
-$GLOBALS['TL_LANG']['tl_content']['column_sizes']['12'] = '100% (12/12)';
-
-$GLOBALS['TL_LANG']['tl_content']['background_color'] = 'Hintergrundfarbe';
-$GLOBALS['TL_LANG']['tl_content']['fields']['background_color_select'][0] = 'Hintergrundfarbe';
-$GLOBALS['TL_LANG']['tl_content']['fields']['background_color_select'][1] = 'Wählen Sie eine Hintergrundfarbe für dieses Element.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['background_style'][0] = 'Hintergrundart';
-$GLOBALS['TL_LANG']['tl_content']['fields']['background_style'][1] = 'Hier sollten Sie eine Hintergrundart auswählen. Diese wird zur korrekten Darstellung der Texte auf dem Hintergrund benötigt.';
-
-$GLOBALS['TL_LANG']['tl_content']['background_styles']['light'] = 'Hell';
-$GLOBALS['TL_LANG']['tl_content']['background_styles']['dark'] = 'Dunkel';
-
-$GLOBALS['TL_LANG']['tl_content']['colors']['white'] = 'Weiß';
-$GLOBALS['TL_LANG']['tl_content']['colors']['black'] = 'Schwarz';
-$GLOBALS['TL_LANG']['tl_content']['colors']['light-gray'] = 'Hellgrau';
-$GLOBALS['TL_LANG']['tl_content']['colors']['mid-gray'] = 'Mittelgrau';
-$GLOBALS['TL_LANG']['tl_content']['colors']['dark-gray'] = 'Dunkelgrau';
-$GLOBALS['TL_LANG']['tl_content']['colors']['blue'] = 'Blau';
-$GLOBALS['TL_LANG']['tl_content']['colors']['red'] = 'Rot';
-$GLOBALS['TL_LANG']['tl_content']['colors']['gold'] = 'Gold';
-
-$GLOBALS['TL_LANG']['tl_content']['background_image'] = 'Hintergrundbild';
-$GLOBALS['TL_LANG']['tl_content']['fields']['fullwidth'][0] = 'Vollflächig';
-$GLOBALS['TL_LANG']['tl_content']['fields']['fullwidth'][1] = 'Das Bild wird vollflächig in den Hintergrund gelegt';
-
-$GLOBALS['TL_LANG']['tl_content']['column_legend'] = 'Spalten';
-$GLOBALS['TL_LANG']['tl_content']['fields']['collapse_switch'][0] = 'Inner Abstände';
-$GLOBALS['TL_LANG']['tl_content']['fields']['collapse_switch'][1] = 'Wählen Sie, ob Abstände zwischen den Spalten angezeigt werden sollen.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_small'][0] = 'Mobile-Spaltigkeit';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_small'][1] = 'Wählen Sie die Spaltenanzahl für das Mobile-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_medium'][0] = 'Tablet-Spaltigkeit';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_medium'][1] = 'Wählen Sie die Spaltenanzahl für das Tablet-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_large'][0] = 'Desktop-Spaltigkeit';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column_large'][1] = 'Wählen Sie die Spaltenanzahl für das Desktop-Layout.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column-push-pull'][0] = 'Spalte verschieben';
-$GLOBALS['TL_LANG']['tl_content']['fields']['column-push-pull'][1] = 'Wählen Sie, ob die Spalte nach link oder rechts verschoben werden soll.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['pull-push-breakpoint'][0] = 'Breakpoint';
-$GLOBALS['TL_LANG']['tl_content']['fields']['pull-push-breakpoint'][1] = 'Wählen Sie den breakpoint, ab dem die Spalte verschoben werden soll.';
-$GLOBALS['TL_LANG']['tl_content']['fields']['pull-push-size'][0] = 'Verschiebungs-Weite';
-$GLOBALS['TL_LANG']['tl_content']['fields']['pull-push-size'][1] = 'Wählen Sie die Weite, um die die Spalte verschoben werden soll.';
-
-$GLOBALS['TL_LANG']['tl_content']['push-pull']['pull'] = 'Die Spalte nach links ziehen';
-$GLOBALS['TL_LANG']['tl_content']['push-pull']['push'] = 'Die Spalte nach rechts schieben';
-
-$GLOBALS['TL_LANG']['tl_content']['breakpoint']['small'] = 'Small (0px)';
-$GLOBALS['TL_LANG']['tl_content']['breakpoint']['medium'] = 'Medium (640px)';
-$GLOBALS['TL_LANG']['tl_content']['breakpoint']['large'] = 'Large (1024px)';

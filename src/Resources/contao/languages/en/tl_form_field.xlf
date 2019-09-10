@@ -45,27 +45,27 @@
                 <source>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</source>
                 <target>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_small.0">
+            <trans-unit id="tl_form_field.fields.form_column_small.0">
                 <source>Mobile width</source>
                 <target>Mobile width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_small.1">
+            <trans-unit id="tl_form_field.fields.form_column_small.1">
                 <source>Choose how wide columns in the mobile layout are.</source>
                 <target>Choose how wide columns in the mobile layout are.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_medium.0">
+            <trans-unit id="tl_form_field.fields.form_column_medium.0">
                 <source>Tablet width</source>
                 <target>Tablet width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_medium.1">
+            <trans-unit id="tl_form_field.fields.form_column_medium.1">
                 <source>Choose how wide columns in the tablet layout are.</source>
                 <target>Choose how wide columns in the tablet layout are.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_large.0">
+            <trans-unit id="tl_form_field.fields.form_column_large.0">
                 <source>Desktop width</source>
                 <target>Desktop width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.element_column_large.1">
+            <trans-unit id="tl_form_field.fields.form_column_large.1">
                 <source>Choose how wide columns in the desktop layout are.</source>
                 <target>Choose how wide columns in the desktop layout are.</target>
             </trans-unit>

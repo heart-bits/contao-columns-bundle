@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @package    contao-rows
+ * @package    contao-columns
  * @author     heart-bits <hi@heart-bits.com>
  * @copyright  2017 heart-bits Sascha Wustmann. All rights reserved.
  * @filesource
  *
  */
 
-namespace Heartbits\ContaoRows;
+namespace Heartbits\ContaoColumns;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -17,7 +17,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @package Heartbits\Contao\Rows
  */
-class HeartbitsContaoRowsBundle extends Bundle
+class HeartbitsContaoColumnsBundle extends Bundle
 {
 
 }
