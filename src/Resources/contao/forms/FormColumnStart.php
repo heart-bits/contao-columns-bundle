@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnStart extends \Widget
+class FormColumnStart extends \Contao\Widget
 {
 
     /**
@@ -28,16 +28,12 @@ class FormColumnStart extends \Widget
     /**
      * Do not validate
      */
-    public function validate()
-    {
-        return;
-    }
+    public function validate() {}
 
     /**
      * Generate the form field
      */
-    public function generate()
-    {
+    public function generate() {
         if (TL_MODE == 'BE') {
             $this->Template = new \BackendTemplate('be_hb_form_rows');
             return '';

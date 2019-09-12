@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnStop extends \Widget
+class FormColumnStop extends \Contao\Widget
 {
 
     /**

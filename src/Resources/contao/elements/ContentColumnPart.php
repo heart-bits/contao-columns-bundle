@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class ContentColumnPart extends \ContentElement
+class ContentColumnPart extends \Contao\ContentElement
 {
 
     /**

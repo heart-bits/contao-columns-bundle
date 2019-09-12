@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnPart extends \Widget
+class FormColumnPart extends \Contao\Widget
 {
 
     /**

@@ -22,9 +22,9 @@ $GLOBALS['TL_CTE']['row'] = array
 /**
  * Front end form fields
  */
-$GLOBALS['TL_FFL']['rowStart'] = 'FormColumnStart';
-$GLOBALS['TL_FFL']['rowPart'] = 'FormColumnPart';
-$GLOBALS['TL_FFL']['rowStop'] = 'FormColumnStop';
+$GLOBALS['TL_FFL']['rowStart'] = 'Heartbits\ContaoColumns\FormColumnStart';
+$GLOBALS['TL_FFL']['rowPart'] = 'Heartbits\ContaoColumns\FormColumnPart';
+$GLOBALS['TL_FFL']['rowStop'] = 'Heartbits\ContaoColumns\FormColumnStop';
 
 /**
  * Wrapper elements
