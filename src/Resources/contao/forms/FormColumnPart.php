@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnPart extends \Contao\Widget
+class FormColumnPart extends \Widget
 {
 
     /**
@@ -39,7 +39,6 @@ class FormColumnPart extends \Contao\Widget
     public function generate()
     {
         if (TL_MODE == 'BE') {
-            $this->Template = new \BackendTemplate('be_hb_form_rows');
             return '';
         } else {
             return '';

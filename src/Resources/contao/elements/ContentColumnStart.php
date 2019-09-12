@@ -19,6 +19,10 @@ use Contao\System;
  */
 class ContentColumnStart extends \Contao\ContentElement
 {
+    /**
+     * @var bool
+     */
+    private $useColumnsStylesheets;
 
     /**
      * Template
@@ -39,8 +43,10 @@ class ContentColumnStart extends \Contao\ContentElement
             $this->Template->element_column_large = $this->element_column_large;
         } else {
             $parameterIsDefined = System::getContainer()->hasParameter('use_columns_stylesheets');
-            $parameterIsTrue = System::getContainer()->getParameter('use_columns_stylesheets');
-            if ($parameterIsDefined && $parameterIsTrue) {
+            if ($parameterIsDefined) {
+                $parameterIsTrue = System::getContainer()->getParameter('use_columns_stylesheets');
+            }
+            if (!$parameterIsDefined || $parameterIsTrue) {
                 $GLOBALS['TL_CSS'][] = 'bundles/heartbitscontaocolumns/css/grid.min.css';
             }
         }

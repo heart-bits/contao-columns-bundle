@@ -16,7 +16,7 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnStop extends \Contao\Widget
+class FormColumnStop extends \Widget
 {
 
     /**
@@ -39,8 +39,7 @@ class FormColumnStop extends \Contao\Widget
     public function generate()
     {
         if (TL_MODE == 'BE') {
-            $this->strTemplate = 'be_wildcard';
-            $this->Template = new \BackendTemplate($this->strTemplate);
+            return '';
         } else {
             return '';
         }
