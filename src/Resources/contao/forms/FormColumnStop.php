@@ -34,14 +34,25 @@ class FormColumnStop extends \Widget
     }
 
     /**
-     * Generate the form field
+     * Parse the template file and return it as string
+     *
+     * @param array $arrAttributes An optional attributes array
+     *
+     * @return string The template markup
      */
-    public function generate()
+    public function parse($arrAttributes=null)
     {
         if (TL_MODE == 'BE') {
             return '';
         } else {
-            return '';
+            return '</div></div>';
         }
+    }
+
+    /**
+     * Generate the form field
+     */
+    public function generate() {
+        return;
     }
 }

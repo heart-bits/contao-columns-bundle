@@ -114,16 +114,6 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['element_column_large'] = array(
     'sql' => "varchar(2) NOT NULL default ''"
 );
 
-$GLOBALS['TL_DCA']['tl_content']['fields']['fullwidth'] = array(
-    'label' => &$GLOBALS['TL_LANG']['tl_content']['fields']['fullwidth'],
-    'exclude' => true,
-    'inputType' => 'checkbox',
-    'eval' => array(
-        'tl_class' => 'w50'
-    ),
-    'sql' => "char(1) NOT NULL default '1'"
-);
-
 $GLOBALS['TL_DCA']['tl_content']['fields']['column_push_pull'] = array(
     'label' => &$GLOBALS['TL_LANG']['tl_content']['fields']['column-push-pull'],
     'exclude' => true,

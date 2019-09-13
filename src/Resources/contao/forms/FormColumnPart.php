@@ -34,14 +34,59 @@ class FormColumnPart extends \Widget
     }
 
     /**
-     * Generate the form field
+     * Parse the template file and return it as string
+     *
+     * @param array $arrAttributes An optional attributes array
+     *
+     * @return string The template markup
      */
-    public function generate()
+    public function parse($arrAttributes=null)
     {
         if (TL_MODE == 'BE') {
-            return '';
+            return sprintf('<strong>%s:</strong> %s | <strong>%s:</strong> %s | <strong>%s:</strong> %s',
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_small'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_small],
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_medium'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_medium],
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_large'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_large]
+            );
         } else {
-            return '';
+            $strStyle = '';
+            if ($this->style) {
+                $strStyle = ' style="' . $this->style . '"';
+            }
+
+            $strColumnSmall = '';
+            if ($this->form_column_small) {
+                $strColumnSmall = ' small-' . $this->form_column_small;
+            }
+
+            $strColumnMedium = '';
+            if ($this->form_column_medium) {
+                $strColumnMedium = ' medium-' . $this->form_column_medium;
+            }
+
+            $strColumnLarge = '';
+            if ($this->form_column_large) {
+                $strColumnLarge = ' large-' . $this->form_column_large;
+            }
+
+            return sprintf('</div><div class="ce_rowPart%s%s%s%s columns"%s%s>',
+                $this->class,
+                $strColumnSmall,
+                $strColumnMedium,
+                $strColumnLarge,
+                $this->cssID,
+                $strStyle
+            );
         }
+    }
+
+    /**
+     * Generate the form field
+     */
+    public function generate() {
+        return;
     }
 }
