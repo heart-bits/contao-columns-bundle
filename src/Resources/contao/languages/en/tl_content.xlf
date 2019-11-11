@@ -33,19 +33,19 @@
                 <source>Width of the element</source>
                 <target>Width of the element</target>
             </trans-unit>
-            <trans-unit id="tl_content.collapse_switch.0">
+            <trans-unit id="tl_content.fields.collapse_switch.0">
                 <source>Inner gaps</source>
                 <target>Inner gaps</target>
             </trans-unit>
-            <trans-unit id="tl_content.collapse_switch.1">
+            <trans-unit id="tl_content.fields.collapse_switch.1">
                 <source>Choose, if you want to show the gaps between the columns.</source>
                 <target>Choose, if you want to show the gaps between the columns.</target>
             </trans-unit>
-            <trans-unit id="tl_content.collapse_switch.0">
+            <trans-unit id="tl_content.fields.collapse_switch.0">
                 <source>Restrict width</source>
                 <target>Restrict width</target>
             </trans-unit>
-            <trans-unit id="tl_content.collapse_switch.1">
+            <trans-unit id="tl_content.fields.collapse_switch.1">
                 <source>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</source>
                 <target>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</target>
             </trans-unit>
