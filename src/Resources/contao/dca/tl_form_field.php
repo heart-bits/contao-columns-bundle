@@ -56,7 +56,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_small'] = array(
         'auto',
         'shrink'
     ),
-    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50 clr'
@@ -84,7 +84,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_medium'] = array(
         'auto',
         'shrink'
     ),
-    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50'
@@ -112,7 +112,7 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_large'] = array(
         'auto',
         'shrink'
     ),
-    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
+    'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50 clr'
