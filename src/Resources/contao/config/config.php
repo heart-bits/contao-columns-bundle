@@ -12,19 +12,19 @@
 /**
  * Content elements
  */
-$GLOBALS['TL_CTE']['row'] = array
+$GLOBALS['TL_CTE']['grid'] = array
 (
-    'rowStart' => 'Heartbits\ContaoColumns\ContentColumnStart',
-    'rowPart' => 'Heartbits\ContaoColumns\ContentColumnPart',
-    'rowStop' => 'Heartbits\ContaoColumns\ContentColumnStop'
+    'gridStart' => 'Heartbits\ContaoGrid\ContentGridStart',
+    'gridCell' => 'Heartbits\ContaoGrid\ContentGridCell',
+    'gridStop' => 'Heartbits\ContaoGrid\ContentGridStop'
 );
 
 /**
  * Front end form fields
  */
-$GLOBALS['TL_FFL']['rowStart'] = 'Heartbits\ContaoColumns\FormColumnStart';
-$GLOBALS['TL_FFL']['rowPart'] = 'Heartbits\ContaoColumns\FormColumnPart';
-$GLOBALS['TL_FFL']['rowStop'] = 'Heartbits\ContaoColumns\FormColumnStop';
+$GLOBALS['TL_FFL']['gridStart'] = 'Heartbits\ContaoGrid\FormGridStart';
+$GLOBALS['TL_FFL']['gridCell'] = 'Heartbits\ContaoGrid\FormGridCell';
+$GLOBALS['TL_FFL']['gridStop'] = 'Heartbits\ContaoGrid\FormGridStop';
 
 /**
  * Wrapper elements
@@ -32,15 +32,15 @@ $GLOBALS['TL_FFL']['rowStop'] = 'Heartbits\ContaoColumns\FormColumnStop';
 
 // Push new start Elements into existing array
 array_push(
-    $GLOBALS['TL_WRAPPERS']['start'], 'rowStart'
+    $GLOBALS['TL_WRAPPERS']['start'], 'gridStart'
 );
 
 // Push new stop Elements into existing array
 array_push(
-    $GLOBALS['TL_WRAPPERS']['stop'], 'rowStop'
+    $GLOBALS['TL_WRAPPERS']['stop'], 'gridStop'
 );
 
 // Push new stop Elements into existing array
 array_push(
-    $GLOBALS['TL_WRAPPERS']['separator'], 'rowPart'
+    $GLOBALS['TL_WRAPPERS']['separator'], 'gridCell'
 );

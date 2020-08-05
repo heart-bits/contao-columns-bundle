@@ -1,8 +1,8 @@
 <?php
 
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['rowStart'] = '{type_legend},type;{column_size},form_column_small,form_column_medium,form_column_large,column_size,collapse_switch,expanded_switch,column_push_pull,column_push_breakpoint,pull_push_size;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['rowPart'] = '{type_legend},type;{column_size},form_column_small,form_column_medium,form_column_large,column_push_pull,column_push_breakpoint,pull_push_size;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['rowStop'] = '{type_legend},type;{template_legend:hide},customTpl;{protected_legend:hide},protected;';
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridStart'] = '{type_legend},type;{column_size},form_cell_small,form_cell_medium,form_cell_large,collapse_switch,collapseY_switch,expanded_switch;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridCell'] = '{type_legend},type;{column_size},form_cell_small,form_cell_medium,form_cell_large;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridStop'] = '{type_legend},type;{template_legend:hide},customTpl;{protected_legend:hide},protected;';
 
 // Rows
 
@@ -16,6 +16,16 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['collapse_switch'] = array(
     'sql' => "char(1) NOT NULL default '1'"
 );
 
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['collapseY_switch'] = array(
+    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['collapseY_switch'],
+    'exclude' => true,
+    'inputType' => 'checkbox',
+    'eval' => array(
+        'tl_class' => 'w50'
+    ),
+    'sql' => "char(1) NOT NULL default ''"
+);
+
 $GLOBALS['TL_DCA']['tl_form_field']['fields']['expanded_switch'] = array(
     'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['expanded_switch'],
     'exclude' => true,
@@ -26,8 +36,8 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['expanded_switch'] = array(
     'sql' => "char(1) NOT NULL default '1'"
 );
 
-$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_small'] = array(
-    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_small'],
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_small'] = array(
+    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_small'],
     'exclude' => true,
     'inputType' => 'select',
     'options' => array(
@@ -42,17 +52,20 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_small'] = array(
         '9',
         '10',
         '11',
-        '12'),
+        '12',
+        'auto',
+        'shrink'
+    ),
     'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50 clr'
     ),
-    'sql' => "varchar(2) NOT NULL default ''"
+    'sql' => "varchar(12) NOT NULL default ''"
 );
 
-$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_medium'] = array(
-    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_medium'],
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_medium'] = array(
+    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_medium'],
     'exclude' => true,
     'inputType' => 'select',
     'options' => array(
@@ -67,18 +80,20 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_medium'] = array(
         '9',
         '10',
         '11',
-        '12'
+        '12',
+        'auto',
+        'shrink'
     ),
     'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50'
     ),
-    'sql' => "varchar(2) NOT NULL default ''"
+    'sql' => "varchar(12) NOT NULL default ''"
 );
 
-$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_large'] = array(
-    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_large'],
+$GLOBALS['TL_DCA']['tl_form_field']['fields']['form_cell_large'] = array(
+    'label' => &$GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_large'],
     'exclude' => true,
     'inputType' => 'select',
     'options' => array(
@@ -93,12 +108,14 @@ $GLOBALS['TL_DCA']['tl_form_field']['fields']['form_column_large'] = array(
         '9',
         '10',
         '11',
-        '12'
+        '12',
+        'auto',
+        'shrink'
     ),
     'reference' => &$GLOBALS['TL_LANG']['tl_form_field']['column_sizes'],
     'eval' => array(
         'includeBlankOption' => true,
         'tl_class' => 'w50 clr'
     ),
-    'sql' => "varchar(2) NOT NULL default ''"
+    'sql' => "varchar(12) NOT NULL default ''"
 );

@@ -1,4 +1,4 @@
-contao-columns-bundle
+contao-grid-bundle
 ===================
 
 Just a little extension for the content management system 'contao', which allows the backend-user to generate rows and columns for a foundation grid.
@@ -8,8 +8,8 @@ Add the following parameter to your **config.yml**, if you don't want to load th
 # app/config/config.yml
 
 parameters:
-    # Heartbits\ContaoColumns configuration
-    use_columns_stylesheets: false
+    # Heartbits\ContaoGrid configuration
+    use_grid_stylesheets: false
 ```
 
 After these changes the contao-cache should be cleared.

@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Heartbits\ContaoColumns;
+namespace Heartbits\ContaoGrid;
 
 
 /**
@@ -16,14 +16,14 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class ContentColumnStop extends \Contao\ContentElement
+class ContentGridStop extends \Contao\ContentElement
 {
 
     /**
      * Template
      * @var string
      */
-    protected $strTemplate = 'ce_rowStop';
+    protected $strTemplate = 'ce_gridStop';
 
 
     /**

@@ -8,16 +8,16 @@
  *
  */
 
-namespace Heartbits\ContaoColumns;
+namespace Heartbits\ContaoGrid;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Bundle class.
  *
- * @package Heartbits\Contao\Rows
+ * @package Heartbits\Contao\Grid
  */
-class HeartbitsContaoColumnsBundle extends Bundle
+class HeartbitsContaoGridBundle extends Bundle
 {
 
 }

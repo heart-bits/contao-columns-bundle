@@ -1,155 +1,134 @@
 <?xml version="1.0" ?><xliff version="1.1">
     <file datatype="plaintext" original="src/Resources/contao/languages/en/tl_form_field.xlf" source-language="en" target-language="en">
         <body>
-            <trans-unit id="FFL.rowStart.0">
+            <trans-unit id="FFL.gridStart.0">
                 <source>Wrapper Start</source>
                 <target>Wrapper Start</target>
             </trans-unit>
-            <trans-unit id="FFL.rowStart.1">
+            <trans-unit id="FFL.gridStart.1">
                 <source>Generates the opening part of the row wrapper.</source>
                 <target>Generates the opening part of the row wrapper.</target>
             </trans-unit>
-            <trans-unit id="FFL.rowPart.0">
+            <trans-unit id="FFL.gridCell.0">
                 <source>Wrapper Separator</source>
                 <target>Wrapper Separator</target>
             </trans-unit>
-            <trans-unit id="FFL.rowPart.1">
+            <trans-unit id="FFL.gridCell.1">
                 <source>Generates the separating part of the row wrapper.</source>
                 <target>Generates the separating part of the row wrapper.</target>
             </trans-unit>
-            <trans-unit id="FFL.rowStop.0">
+            <trans-unit id="FFL.gridStop.0">
                 <source>Wrapper Stop</source>
                 <target>Wrapper Stop</target>
             </trans-unit>
-            <trans-unit id="FFL.rowStop.1">
+            <trans-unit id="FFL.gridStop.1">
                 <source>Generates the closing part of the row wrapper.</source>
                 <target>Generates the closing part of the row wrapper.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_size">
+            <trans-unit id="tl_form_field.cell_size">
                 <source>Width of the element</source>
                 <target>Width of the element</target>
             </trans-unit>
             <trans-unit id="tl_form_field.fields.collapse_switch.0">
-                <source>Inner gaps</source>
-                <target>Inner gaps</target>
+                <source>Horizontal gaps</source>
+                <target>Horizontal gaps</target>
             </trans-unit>
             <trans-unit id="tl_form_field.fields.collapse_switch.1">
-                <source>Choose, if you want to show the gaps between the columns.</source>
-                <target>Choose, if you want to show the gaps between the columns.</target>
+                <source>Choose, if you want to show the horizontal gaps.</source>
+                <target>Choose, if you want to show the horizontal gaps.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.collapse_switch.0">
-                <source>Restrict width</source>
-                <target>Restrict width</target>
+            <trans-unit id="tl_form_field.fields.collapseY_switch.0">
+                <source>Vertical gaps</source>
+                <target>Vertical gaps</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.collapse_switch.1">
+            <trans-unit id="tl_form_field.fields.collapseY_switch.1">
+                <source>Choose, if you want to show the vertical gaps.</source>
+                <target>Choose, if you want to show the vertical gaps.</target>
+            </trans-unit>
+            <trans-unit id="tl_form_field.fields.expanded_switch.1">
                 <source>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</source>
                 <target>Choose, if the row should be restricted by the content width or if it should be as wide as the window.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_small.0">
+            <trans-unit id="tl_form_field.fields.form_cell_small.0">
                 <source>Mobile width</source>
                 <target>Mobile width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_small.1">
+            <trans-unit id="tl_form_field.fields.form_cell_small.1">
                 <source>Choose how wide columns in the mobile layout are.</source>
                 <target>Choose how wide columns in the mobile layout are.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_medium.0">
+            <trans-unit id="tl_form_field.fields.form_cell_medium.0">
                 <source>Tablet width</source>
                 <target>Tablet width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_medium.1">
+            <trans-unit id="tl_form_field.fields.form_cell_medium.1">
                 <source>Choose how wide columns in the tablet layout are.</source>
                 <target>Choose how wide columns in the tablet layout are.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_large.0">
+            <trans-unit id="tl_form_field.fields.form_cell_large.0">
                 <source>Desktop width</source>
                 <target>Desktop width</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.form_column_large.1">
+            <trans-unit id="tl_form_field.fields.form_cell_large.1">
                 <source>Choose how wide columns in the desktop layout are.</source>
                 <target>Choose how wide columns in the desktop layout are.</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.1">
+            <trans-unit id="tl_form_field.cell_sizes.1">
                 <source>8,33% (1/12)</source>
                 <target>8,33% (1/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.2">
+            <trans-unit id="tl_form_field.cell_sizes.2">
                 <source>16,66% (2/12)</source>
                 <target>16,66% (2/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.3">
+            <trans-unit id="tl_form_field.cell_sizes.3">
                 <source>25% (3/12)</source>
                 <target>25% (3/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.4">
+            <trans-unit id="tl_form_field.cell_sizes.4">
                 <source>33,33% (4/12)</source>
                 <target>33,33% (4/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.5">
+            <trans-unit id="tl_form_field.cell_sizes.5">
                 <source>41,66% (5/12)</source>
                 <target>41,66% (5/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.6">
+            <trans-unit id="tl_form_field.cell_sizes.6">
                 <source>50% (6/12)</source>
                 <target>50% (6/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.7">
+            <trans-unit id="tl_form_field.cell_sizes.7">
                 <source>58,33% (7/12)</source>
                 <target>58,33% (7/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.8">
+            <trans-unit id="tl_form_field.cell_sizes.8">
                 <source>66,66% (8/12)</source>
                 <target>66,66% (8/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.9">
+            <trans-unit id="tl_form_field.cell_sizes.9">
                 <source>75% (9/12)</source>
                 <target>75% (9/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.10">
+            <trans-unit id="tl_form_field.cell_sizes.10">
                 <source>83,33% (10/12)</source>
                 <target>83,33% (10/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.11">
+            <trans-unit id="tl_form_field.cell_sizes.11">
                 <source>91,66% (11/12)</source>
                 <target>91,66% (11/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.column_sizes.12">
+            <trans-unit id="tl_form_field.cell_sizes.12">
                 <source>100% (12/12)</source>
                 <target>100% (12/12)</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.column-push-pull.0">
-                <source>Shift column</source>
-                <target>Shift column</target>
+            <trans-unit id="tl_form_field.cell_sizes.auto">
+                <source>Remaining space</source>
+                <target>Verbleibende Breite</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.column-push-pull.1">
-                <source>Choose if the column should be pulled to the left or pushed to the right.</source>
-                <target>Choose if the column should be pulled to the left or pushed to the right.</target>
+            <trans-unit id="tl_form_field.cell_sizes.shrink">
+                <source>Width of content</source>
+                <target>Breite des Inhaltes</target>
             </trans-unit>
-            <trans-unit id="tl_form_field.fields.pull-push-breakpoint.0">
-                <source>Breakpoint</source>
-                <target>Breakpoint</target>
-            </trans-unit>
-            <trans-unit id="tl_form_field.fields.pull-push-breakpoint.1">
-                <source>Choose the breakpoint, at which the column should be shifted.</source>
-                <target>Choose the breakpoint, at which the column should be shifted.</target>
-            </trans-unit>
-            <trans-unit id="tl_form_field.fields.pull-push-size.0">
-                <source>Size of shift</source>
-                <target>Size of shift</target>
-            </trans-unit>
-            <trans-unit id="tl_form_field.fields.pull-push-size.1">
-                <source>Choose the size, the column should be shifted.</source>
-                <target>Choose the size, the column should be shifted.</target>
-            </trans-unit>
-            <trans-unit id="tl_form_field.push-pull.pull">
-                <source>Pull Column to the left.</source>
-                <target>Pull Column to the left.</target>
-            </trans-unit>
-            <trans-unit id="tl_form_field.push-pull.push">
-                <source>Push column to the right.</source>
-                <target>Push column to the right.</target>
-            </trans-unit>
-    
             <trans-unit id="tl_form_field.breakpoint.small">
                 <source>Mobile</source>
                 <target>Mobile</target>

@@ -1,20 +1,20 @@
 <?php
 
 /**
- * @package    contao-rows
- * @author     heart-bits <hi@heart-bits.com>
- * @copyright  2019 heart-bits Sascha Wustmann. All rights reserved.
+ * @package    contao-grid
+ * @author     Sascha WUstmann <hi@heart-bits.com>
+ * @copyright  2020 Sascha Wustmann. All rights reserved.
  * @filesource
  *
  */
 
-namespace Heartbits\ContaoColumns\ContaoManager;
+namespace Heartbits\ContaoGrid\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Heartbits\ContaoColumns\HeartbitsContaoColumnsBundle;
+use Heartbits\ContaoGrid\HeartbitsContaoGridBundle;
 
 /**
  * Class Plugin.
@@ -29,7 +29,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(HeartbitsContaoColumnsBundle::class)
+            BundleConfig::create(HeartbitsContaoGridBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class])
         ];
     }

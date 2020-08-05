@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Heartbits\ContaoColumns;
+namespace Heartbits\ContaoGrid;
 
 
 /**
@@ -16,15 +16,8 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnPart extends \Widget
+class FormGridCell extends \Widget
 {
-
-    /**
-     * Template
-     * @var string
-     */
-    protected $strTemplate = 'form_rowPart';
-
     /**
      * Do not validate
      */
@@ -44,12 +37,12 @@ class FormColumnPart extends \Widget
     {
         if (TL_MODE == 'BE') {
             return sprintf('<strong>%s:</strong> %s | <strong>%s:</strong> %s | <strong>%s:</strong> %s',
-                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_small'][0],
-                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_small],
-                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_medium'][0],
-                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_medium],
-                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_column_large'][0],
-                $GLOBALS['TL_LANG']['tl_form_field']['column_sizes'][$this->form_column_large]
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_small'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'][$this->form_cell_small],
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_medium'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'][$this->form_cell_medium],
+                $GLOBALS['TL_LANG']['tl_form_field']['fields']['form_cell_large'][0],
+                $GLOBALS['TL_LANG']['tl_form_field']['cell_sizes'][$this->form_cell_large]
             );
         } else {
             $strStyle = '';
@@ -58,21 +51,21 @@ class FormColumnPart extends \Widget
             }
 
             $strColumnSmall = '';
-            if ($this->form_column_small) {
-                $strColumnSmall = ' small-' . $this->form_column_small;
+            if ($this->form_cell_small) {
+                $strColumnSmall = ' small-' . $this->form_cell_small;
             }
 
             $strColumnMedium = '';
-            if ($this->form_column_medium) {
-                $strColumnMedium = ' medium-' . $this->form_column_medium;
+            if ($this->form_cell_medium) {
+                $strColumnMedium = ' medium-' . $this->form_cell_medium;
             }
 
             $strColumnLarge = '';
-            if ($this->form_column_large) {
-                $strColumnLarge = ' large-' . $this->form_column_large;
+            if ($this->form_cell_large) {
+                $strColumnLarge = ' large-' . $this->form_cell_large;
             }
 
-            return sprintf('</div><div class="ce_rowPart%s%s%s%s columns"%s%s>',
+            return sprintf('</div><div class="ce_gridCell%s%s%s%s cell"%s%s>',
                 $this->class,
                 $strColumnSmall,
                 $strColumnMedium,

@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Heartbits\ContaoColumns;
+namespace Heartbits\ContaoGrid;
 
 
 /**
@@ -16,15 +16,8 @@ namespace Heartbits\ContaoColumns;
  *
  * @author Leo Feyer <https://github.com/leofeyer>
  */
-class FormColumnStop extends \Widget
+class FormGridStop extends \Widget
 {
-
-    /**
-     * Template
-     * @var string
-     */
-    protected $strTemplate = 'form_rowStop';
-
     /**
      * Do not validate
      */
