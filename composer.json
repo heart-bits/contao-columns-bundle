@@ -1,6 +1,6 @@
 {
   "name":"heart-bits/contao-columns-bundle",
-  "description":"Rows extension for Contao Open Source CMS",
+  "description":"Grid extension for Contao Open Source CMS",
   "keywords":["contao", "rows", "reihen", "columns", "spalten", "foundation", "grid"],
   "type":"contao-bundle",
   "license":"LGPL-3.0+",
