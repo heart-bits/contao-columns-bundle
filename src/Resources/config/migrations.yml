@@ -1,0 +1,12 @@
+services:
+    Heartbits\ContaoGrid\Migration\GridContentMigration:
+        arguments:
+            - '@database_connection'
+        tags:
+            - { name: contao.migration, priority: 0 }
+
+    Heartbits\ContaoGrid\Migration\GridFormMigration:
+        arguments:
+            - '@database_connection'
+        tags:
+            - { name: contao.migration, priority: 0 }
