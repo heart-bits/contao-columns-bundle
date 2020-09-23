@@ -51,7 +51,7 @@ class GridContentMigration extends AbstractMigration
 
         return new MigrationResult(
             true,
-            'Migrated grid.'
+            'Migrated content grids.'
         );
     }
 }

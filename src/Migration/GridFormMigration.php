@@ -51,7 +51,7 @@ class GridFormMigration extends AbstractMigration
 
         return new MigrationResult(
             true,
-            'Migrated grid.'
+            'Migrated form grids.'
         );
     }
 }
