@@ -1,7 +1,7 @@
 <?php
 
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridStart'] = '{type_legend},type;{column_size},form_cell_small,form_cell_medium,form_cell_large,collapse_switch,collapseY_switch,expanded_switch;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
-$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridCell'] = '{type_legend},type;{column_size},form_cell_small,form_cell_medium,form_cell_large;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridStart'] = '{type_legend},type;{cell_size},form_cell_small,form_cell_medium,form_cell_large,collapse_switch,collapseY_switch,expanded_switch;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
+$GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridCell'] = '{type_legend},type;{cell_size},form_cell_small,form_cell_medium,form_cell_large;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;';
 $GLOBALS['TL_DCA']['tl_form_field']['palettes']['gridStop'] = '{type_legend},type;{template_legend:hide},customTpl;{protected_legend:hide},protected;';
 
 // Rows

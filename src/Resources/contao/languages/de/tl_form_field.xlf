@@ -26,8 +26,8 @@
                 <target>Erzeugt den schließenden Teil des Reihen-Umschlags.</target>
             </trans-unit>
             <trans-unit id="tl_form_field.cell_size">
-                <source>Width of the element</source>
-                <target>Breite des Elementes</target>
+                <source>Width of the cell</source>
+                <target>Breite der Zelle</target>
             </trans-unit>
             <trans-unit id="tl_form_field.fields.collapse_switch.0">
                 <source>Horizontal gaps</source>

@@ -26,8 +26,8 @@
                 <target>Generates the closing part of the row wrapper.</target>
             </trans-unit>
             <trans-unit id="tl_form_field.cell_size">
-                <source>Width of the element</source>
-                <target>Width of the element</target>
+                <source>Width of the cell</source>
+                <target>Width of the cell</target>
             </trans-unit>
             <trans-unit id="tl_form_field.fields.collapse_switch.0">
                 <source>Horizontal gaps</source>

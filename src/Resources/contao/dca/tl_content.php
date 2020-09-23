@@ -10,8 +10,8 @@
  */
 
 
-$GLOBALS['TL_DCA']['tl_content']['palettes']['gridStart'] = '{type_legend},type;{cell_size:hide},element_cell_small,element_cell_medium,element_cell_large,collapse_switch,collapseY_switch,expanded_switch;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop;';
-$GLOBALS['TL_DCA']['tl_content']['palettes']['gridCell'] = '{type_legend},type;{cell_size:hide},element_cell_small,element_cell_medium,element_cell_large;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop;';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['gridStart'] = '{type_legend},type;{cell_size},element_cell_small,element_cell_medium,element_cell_large,collapse_switch,collapseY_switch,expanded_switch;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop;';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['gridCell'] = '{type_legend},type;{cell_size},element_cell_small,element_cell_medium,element_cell_large;{template_legend:hide},customTpl;{protected_legend:hide},protected;{expert_legend:hide},guests,cssID,space;{invisible_legend:hide},invisible,start,stop;';
 $GLOBALS['TL_DCA']['tl_content']['palettes']['gridStop'] = '{type_legend},type;{template_legend:hide},customTpl;{protected_legend:hide},protected;{invisible_legend:hide},invisible,start,stop';
 
 // Rows
