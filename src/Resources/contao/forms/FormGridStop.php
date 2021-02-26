@@ -38,7 +38,7 @@ class FormGridStop extends \Widget
         if (TL_MODE == 'BE') {
             return '';
         } else {
-            return '</div></div>';
+            return '</div></div></div>';
         }
     }
 
